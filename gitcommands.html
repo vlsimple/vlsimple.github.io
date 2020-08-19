@@ -60,17 +60,16 @@
 								To ignore files create .gitignore file.
 								<code>touch .gitignore</code>
 								Then add files that you would like to ignore.
-								<pre>
-								<code>.DS_Store
-								.project
-								*.pyc</code>
-								</pre>
+								<code>.DS_Store .project *.pyc</code>
 							</p>
 							<p>
 								To add all files we changed to the staging area:
 								<code>git add -A</code>
 								To add a single file to the staging area:
 								<code>git add <em>filename</em></code>
+							</p>
+							<p>
+								If you want to maintain a folder and not the files inside it, just put a <code>. gitignore</code> file in the folder with <code>*</code> as the content. This file will make Git ignore all content from the repository.
 							</p>
 						</div>
 					</div>
